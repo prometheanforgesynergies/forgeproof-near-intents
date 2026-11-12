@@ -120,10 +120,11 @@ returns no `depositAddress`, `timeWhenInactive`, or `deadline`.
 
 ## Status / gates
 
-Local build only. Nothing here has been published, posted, or
-submitted. Publication, the demo post, and any submission each need
-Bill Koschney's separate go, in that order. This folder contains no
-credentials, no wallet material, and no payout address.
+Public repository, published Nov 11, 2026 on Bill Koschney's go:
+<https://github.com/prometheanforgesynergies/forgeproof-near-intents>.
+The demo post and any submission each still need his separate go, in
+that order. This folder contains no credentials, no wallet material,
+and no payout address.
 
 ## License
 

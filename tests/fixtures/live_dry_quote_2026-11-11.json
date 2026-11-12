@@ -1,0 +1,60 @@
+{
+  "http_status": 201,
+  "request_dry": true,
+  "response": {
+    "quote": {
+      "amountIn": "1000000",
+      "amountInFormatted": "1.0",
+      "amountInUsd": "0.999508000000",
+      "minAmountIn": "1000000",
+      "amountOut": "777504",
+      "amountOutFormatted": "0.777504",
+      "amountOutUsd": "0.777121468032",
+      "minAmountOut": "769728",
+      "timeEstimate": 22,
+      "refundFee": "5300",
+      "withdrawFee": "222316"
+    },
+    "quoteRequest": {
+      "dry": true,
+      "depositMode": "SIMPLE",
+      "swapType": "EXACT_INPUT",
+      "slippageTolerance": 100,
+      "originAsset": "nep141:arb-0xaf88d065e77c8cc2239327c5edb3a432268e5831.omft.near",
+      "depositType": "ORIGIN_CHAIN",
+      "destinationAsset": "nep141:sol-5ce3bf3a31af18be40ba30f721101b4341690186.omft.near",
+      "amount": "1000000",
+      "refundTo": "0x2527D02599Ba641c19FEa793cD0F167589a0f10D",
+      "refundType": "ORIGIN_CHAIN",
+      "recipient": "13QkxhNMrTPxoCkRdYdJ65tFuwXPhL5gLS2Z5Nr6gjRK",
+      "recipientType": "DESTINATION_CHAIN",
+      "deadline": "2026-11-12T03:04:01.000Z",
+      "confidentiality": "public",
+      "quoteWaitingTimeMs": 3000,
+      "insured": false,
+      "appFees": [
+        {
+          "recipient": "5880ad2b362620fadf759cbceb1cd5737ce8c6ed7fb8e9942881e6731f9247dd",
+          "fee": 1
+        }
+      ]
+    },
+    "signature": "ed25519:3fQ8dsLvMBSUqgsjApfB14YMgsdQWDwtPbeFoFhcntKbCTRHUTbrbU3KGNopU1JKSKqqyJChS94ycYrSLXp3LPxA",
+    "timestamp": "2026-11-12T02:34:02.461Z",
+    "correlationId": "88b75b3d-f0f3-45ff-bd41-d5cfd68442af"
+  },
+  "parsed": {
+    "dry": true,
+    "amount_in": "1000000",
+    "amount_in_formatted": "1.0",
+    "amount_in_usd": "0.999508000000",
+    "amount_out": "777504",
+    "amount_out_formatted": "0.777504",
+    "amount_out_usd": "0.777121468032",
+    "min_amount_out": "769728",
+    "time_estimate_seconds": 22,
+    "origin_asset": "nep141:arb-0xaf88d065e77c8cc2239327c5edb3a432268e5831.omft.near",
+    "destination_asset": "nep141:sol-5ce3bf3a31af18be40ba30f721101b4341690186.omft.near",
+    "illustration": "1.00 USDC (illustration only, not the part price)"
+  }
+}

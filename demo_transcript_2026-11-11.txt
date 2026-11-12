@@ -1,0 +1,25 @@
+$ python3 demo.py comparables.csv "GM 6L90 transmission 4WD"
+ForgeProof Scout check — query 'GM 6L90 transmission 4WD'
+matches: 1  subject-only: 1  evidence rows: 0
+SCOUT: REFUSED — no quote issued, no network call made.
+reason: no evidence-backed row: no verified comparable for this part (subject only); named source (source_name); listing date (listing_date); price (price_usd, positive number)
+  missing: no verified comparable for this part (subject only)
+  missing: named source (source_name)
+  missing: listing date (listing_date)
+  missing: price (price_usd, positive number)
+No evidence, no quote.
+
+$ python3 demo.py comparables.csv "Bobcat 753 BICS lockout coil"
+ForgeProof Scout check — query 'Bobcat 753 BICS lockout coil'
+matches: 1  subject-only: 0  evidence rows: 1
+evidence: Bobcat 753 BICS lockout coil | 30.89 USD | All States Ag Parts | 2026-10-26 | Mead WA
+SCOUT: EVIDENCE-BACKED — price shown from evidence only.
+NEAR Intents: requesting ONE dry quote (1.00 USDC (illustration only, not the part price)). No wallet, no deposit, no execution.
+DRY QUOTE (1Click, dry=True, unauthenticated):
+  in:  1.0 (base units 1000000)
+  out: 0.777504 (base units 777504)
+  out USD estimate: 0.777121468032
+  min out after slippage: 769728
+  time estimate: 22s
+  deposit address: NONE (dry quotes issue none)
+  NOTE: token amounts are the 1.00 USDC illustration above. The part price is the Scout USD price printed earlier. Intents does not pay the yard in dollars.
